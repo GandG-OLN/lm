@@ -10,9 +10,7 @@
     'depends': ['base'],
     'license': 'AGPL-3',
     'data': [
- #       'views/etudiant_info.xml',
- #       'views/classe_info.xml',
- #       'views/matiere_info.xml',
+        'views/lettre_mission.xml',
  #       'security/ir.model.access.csv',
     ],
     'demo': [],
