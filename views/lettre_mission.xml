@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <odoo>
     <data>
+
+        <record id="record_action" model="ir.actions.act_window">
+            <field name="name">Lettres de mission</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">lettre.mission</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="o_view_nocontent_smiling_face">
+                    Create a new record!
+                </p>
+            </field>
+        </record>
+
         <menuitem id="lm.menu_root" name="Lettre de mission" sequence="6" web_icon="LM,static/description/icon.png"/>
-        <menuitem id="menu_etudiant" name="Information Etudiants" parent="school.menu_root" action="record_action" sequence="10" />
+        <menuitem id="menu_etudiant" name="Lettres de mission" parent="lm.menu_root" action="record_action" sequence="10" />
 
     </data>
 </odoo>
