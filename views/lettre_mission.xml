@@ -15,7 +15,7 @@
         </record>
 
         <menuitem id="lm.menu_root" name="Lettre de mission" sequence="6" web_icon="LM,static/description/icon.png"/>
-        <menuitem id="menu_etudiant" name="Lettres de mission" parent="lm.menu_root" action="record_action" sequence="10" />
+        <menuitem id="menu_lm" name="Lettres de mission" parent="lm.menu_root" action="record_action" sequence="10" />
 
     </data>
 </odoo>
