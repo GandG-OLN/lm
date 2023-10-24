@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="lm_expertise_id">
+        <div>
+            <h1 style="margin-top:13pt; margin-bottom:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#ffd900">1</span><span style="width:19.31pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#59aba7">Etendue de la mission</span>
+			</h1>
+            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Notre programme d’intervention comprend les principales étapes suivantes</span> <a name="_ftnref1"></a><a href="#_ftn1" style="text-decoration:none"><span style="font-family:'Avenir Next LT Pro'; font-size:7.33pt; color:#000000"><sup>[1]</sup></span></a><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">:</span>
+			</p>
+            <ul type="disc" style="margin:0pt; padding-left:0pt">
+				<li style="margin-top:6.5pt; margin-left:10.06pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.94pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">L’examen du contrôle interne</span><em><span style="font-family:'Avenir Next LT Pro'; ">&#xa0;</span></em><em><span style="font-family:'Avenir Next LT Pro'; ">;</span></em>
+				</li>
+				<li style="margin-top:6.5pt; margin-left:10.06pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.94pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">L’audit des états financiers au </span><span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">31</span><span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Décembre 2023</span><span style="font-family:'Avenir Next LT Pro'"> établis conformément au SYSCOHADA Révisé en vue de la certification des comptes annuels</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><em><span style="font-family:'Avenir Next LT Pro'; ">; </span></em>
+				</li>
+			</ul>
+            <p style="margin-top:6.5pt; margin-left:17pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">L’objectif et la démarche de cet audit sont détaillés aux §</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">2.1 et §</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">2.2 des conditions générales d’intervention</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">;</span>
+			</p>
+			<ul type="disc" style="margin:0pt; padding-left:0pt">
+				<li style="margin-top:6.5pt; margin-left:10.06pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.94pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">Les vérifications spécifiques prévues par la loi (relatives au rapport de gestion, aux conventions et engagements réglementés, …)</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">;</span>
+				</li>
+				<li style="margin-top:6.5pt; margin-left:10.06pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.94pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">Les diligences spécifiques permettant d’émettre, le cas échéant, nos autres rapports prévus par les textes légaux et réglementaires.</span>
+				</li>
+			</ul>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Les travaux seront conduits selon les Normes Internationales d’Audit (International Standards on Auditing, Normes ISA), de l’Acte Révisé de l’OHADA relatif aux droits des sociétés commerciales et du groupement économique ainsi que les normes de la Profession édictées par le Code d’Éthique de l’OHADA.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">L’annexe</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">I rappelle les objectifs et démarches d’un audit et définit les conditions générales d’intervention que vous acceptez expressément par la signature de la présente lettre de mission.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+            <h1 style="margin-top:13pt; margin-bottom:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#ffd900">2</span><span style="width:19.31pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#59aba7">Organisation de la mission</span>
+			</h1>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">La mise en œuvre de notre mission nécessite une communication régulière et de bonne qualité entre l’ensemble du personnel de votre société et nous-mêmes. Dans ce cadre et afin de faciliter la préparation de notre intervention, nous vous communiquons en annexe II une liste non exhaustive de documents et analyses nécessaires à l’accomplissement de nos diligences. Nous insistons particulièrement sur le respect des dates indiquées pour nous permettre d’accomplir notre mission dans les meilleures conditions.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Pour l’émission de nos rapports, conformément aux normes professionnelles en vigueur, nous demanderons au représentant légal de votre société une lettre d’affirmation confirmant notamment</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">:</span>
+			</p>
+			<ul type="square" style="margin:0pt; padding-left:0pt">
+				<li style="margin-top:6.5pt; margin-left:10.03pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.97pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">les diverses déclarations recueillies au cours de la mission</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">;</span>
+				</li>
+				<li style="margin-top:6.5pt; margin-left:10.03pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.97pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">la responsabilité de la direction concernant la conception et la mise en œuvre du contrôle interne dont le but est de prévenir et de détecter les erreurs et fraudes</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">;</span>
+				</li>
+				<li style="margin-top:6.5pt; margin-left:10.03pt; margin-bottom:6.5pt; text-align:justify; padding-left:6.97pt; font-family:serif">
+					<span style="font-family:'Avenir Next LT Pro'">la communication au commissaire aux comptes de toutes les informations importantes, l’appréciation de la direction du risque que les comptes puissent comporter des anomalies significatives résultant de fraude, ainsi que tous les actes de fraude connus, suspectés ou présumés.</span>
+				</li>
+			</ul>
+			<p style="margin-top:6.5pt; margin-left:17pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<h2 style="margin-top:6.5pt; margin-left:68.8pt; margin-bottom:0pt; text-indent:-36pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<em><span style="font-family:'Avenir Next LT Pro'; font-size:12pt; color:#ffd900">2.1.</span></em><span style="width:13.35pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><em><span style="font-family:'Avenir Next LT Pro'; font-size:12pt; color:#59aba7">Planning de la mission</span></em>
+			</h2>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Conformément aux dispositions de l’article 718 de l’Acte Uniforme de l’OHADA sur les sociétés commerciales et le GIE (AUSGIE), notre calendrier est le suivant</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">:</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Par ailleurs, le cabinet sera en mesure de présenter les rapports dès réception du procès-verbal d’arrêté des comptes, du rapport de gestion et des textes de résolutions.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<table cellspacing="0" cellpadding="0" style="width:100%; border:0.75pt solid #000000; border-collapse:collapse">
+				<thead>
+					<tr>
+						<td style="width:18.3%; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#59aba7">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<strong><span style="font-family:'Avenir Next LT Pro'; font-size:11pt; color:#ffffff; background-color:#ffff00">Phase</span></strong>
+							</p>
+						</td>
+						<td style="width:48.36%; border-right-style:solid; border-right-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#59aba7">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<strong><span style="font-family:'Avenir Next LT Pro'; font-size:11pt; color:#ffffff; background-color:#ffff00">Travaux à réaliser</span></strong>
+							</p>
+						</td>
+						<td style="width:33.34%; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#59aba7">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<strong><span style="font-family:'Avenir Next LT Pro'; font-size:11pt; color:#ffffff; background-color:#ffff00">Date d’intervention prévisionnelles</span></strong>
+							</p>
+						</td>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td style="width:18.3%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Intérim</span>
+							</p>
+						</td>
+						<td style="width:48.36%; border-style:solid; border-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Prise de connaissance, revue des procédures de contrôle interne</span>
+							</p>
+						</td>
+						<td style="width:33.34%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Octobre 2023</span>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:18.3%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Arrêté intermédiaire</span>
+							</p>
+						</td>
+						<td style="width:48.36%; border-style:solid; border-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Contrôle des comptes (30 septembre 2023)</span>
+							</p>
+						</td>
+						<td style="width:33.34%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Octobre 2023</span>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:18.3%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Final</span>
+							</p>
+						</td>
+						<td style="width:48.36%; border-style:solid; border-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Contrôle des comptes (31 décembre 2023)</span>
+							</p>
+						</td>
+						<td style="width:33.34%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Janvier 2024</span>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td rowspan="2" style="width:18.3%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt">&#xa0;</span>
+							</p>
+							<p style="margin-top:0pt; margin-bottom:0pt; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Rapports</span>
+							</p>
+						</td>
+						<td style="width:48.36%; border-style:solid; border-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Rapport au Conseil d’Administration</span>
+							</p>
+						</td>
+						<td style="width:33.34%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Février 2024</span>
+							</p>
+						</td>
+					</tr>
+					<tr>
+						<td style="width:48.36%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Rapport d’audit et rapport sur les conventions réglementées</span>
+							</p>
+						</td>
+						<td style="width:33.34%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+							<p style="margin-top:0pt; margin-bottom:0pt; text-align:center; line-height:13pt">
+								<span style="font-family:'Avenir Next LT Pro'; font-size:11pt; background-color:#ffff00">Février 2024</span>
+							</p>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<h2 style="margin-top:6.5pt; margin-left:68.8pt; margin-bottom:0pt; text-indent:-36pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<em><span style="font-family:'Avenir Next LT Pro'; font-size:12pt; color:#ffd900">2.2.</span></em><span style="width:13.35pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><em><span style="font-family:'Avenir Next LT Pro'; font-size:12pt; color:#59aba7">Equipe de la mission</span></em>
+			</h2>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">En tant qu’associée signataire, je serai responsable du déroulement de la mission et je serai assistée de M. Mohamadou Lamine LOUM, Manager Audit, qui sera responsable du déroulement de la mission dans les meilleures conditions possibles, aussi bien pour la qualité du travail fourni et des rapports émis, que sur le plan administratif.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">L'équipe sera également composée des personnes suivantes, sous la responsabilité de l’Associée signataire</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">:</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-indent:28.35pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<table cellspacing="0" cellpadding="0" style="width:100%; border:0.75pt solid #000000; border-collapse:collapse">
+				<tr>
+					<td style="width:50%; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#59aba7">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<strong><span style="font-family:'Avenir Next LT Pro'; color:#ffffff; background-color:#ffff00">Responsabilités</span></strong>
+						</p>
+					</td>
+					<td style="width:50%; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top; background-color:#59aba7">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<strong><span style="font-family:'Avenir Next LT Pro'; color:#ffffff; background-color:#ffff00">Prénoms et Noms</span></strong>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Associée signataire</span>
+						</p>
+					</td>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Ndeye Marième FALL</span>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Manager</span>
+						</p>
+					</td>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; border-bottom-style:solid; border-bottom-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Mohamadou Lamine LOUM</span>
+						</p>
+					</td>
+				</tr>
+				<tr>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-right-style:solid; border-right-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Chef de mission</span>
+						</p>
+					</td>
+					<td style="width:50%; border-top-style:solid; border-top-width:0.75pt; border-left-style:solid; border-left-width:0.75pt; padding-right:5.03pt; padding-left:5.03pt; vertical-align:top">
+						<p style="margin-top:0pt; margin-bottom:0pt; font-size:11pt">
+							<span style="font-family:'Avenir Next LT Pro'; background-color:#ffff00">Ramatoulaye DIOP</span>
+						</p>
+					</td>
+				</tr>
+			</table>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<p style="margin-top:0pt; margin-bottom:6.5pt; text-align:justify; line-height:normal">
+				<span style="font-family:'Avenir Next LT Pro'">Et de toute autre personne que nous jugerions nécessaire au regard de l’étendue des travaux.</span>
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; text-align:justify; line-height:normal">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Conformément aux dispositions de l’article 718 de l’Acte Uniforme Révisé de</span><span style="font-family:'Avenir Next LT Pro'">&#xa0;</span><span style="font-family:'Avenir Next LT Pro'">l’OHADA relatif au droit des sociétés commerciales et du GIE, nous pourrons à toute époque de l’année nous faire assister ou représenter, sous notre responsabilité, par des experts ou d’autres professionnels de notre choix que nous ferons connaître nommément à votre société.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify">
+				<span style="font-family:'Avenir Next LT Pro'">Dans le cadre de nos procédures internes de contrôle qualité, cette mission pourra faire l’objet d’une revue par l’un de nos managers.</span>
+			</p>
+			<p style="margin-top:6.5pt; margin-bottom:6.5pt">
+				<span style="font-family:'Avenir Next LT Pro'">&#xa0;</span>
+			</p>
+			<p style="margin-top:0pt; margin-bottom:0pt; line-height:normal; font-size:14pt">
+				<br style="page-break-before:always; clear:both" />
+			</p>
+        </div>
+        
+    </template>
+
+</odoo>

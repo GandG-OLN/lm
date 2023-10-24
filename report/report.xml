@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <record id="report_lm_detail" model="ir.actions.report">
+        <field name="name">Lettre de mission</field>
+        <field name="model">lettre.mission</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">lm.report_id_lm_detail</field>
+        <field name="report_file">lm.report_id_lm_detail</field>
+        <field name="binding_model_id" ref="model_lettre_mission"/>
+        <field name="binding_type">report</field>
+    </record>
+
+    <!-- <record id="report_lm_taxeandlegal" model="ir.actions.report">
+        <field name="name">Lettre de mission taxe and legal</field>
+        <field name="model">lettre.mission</field>
+        <field name="report_type">qweb-pdf</field>
+        <field name="report_name">lm.lm_taxeandlegal_id</field>
+        <field name="report_file">lm.lm_taxeandlegal_id</field>
+        <field name="binding_model_id" ref="model_lettre_mission"/>
+        <field name="binding_type">report</field>
+    </record> -->
+
+    
+
+</odoo>

@@ -14,8 +14,98 @@
             </field>
         </record>
 
-        <menuitem id="lm.menu_root" name="Lettre de mission" sequence="6" web_icon="LM,static/description/icon.png"/>
+        <menuitem id="lm.menu_root" name="Lettre de mission" sequence="6" web_icon="lm,static/description/icon.png"/>
         <menuitem id="menu_lm" name="Lettres de mission" parent="lm.menu_root" action="record_action" sequence="10" />
+
+        <record id="lettre_mission_form" model="ir.ui.view">
+            <field name="name">lettre.mission.form</field>
+            <field name="model">lettre.mission</field>
+            <field name="arch" type="xml">
+                <form>
+                    <header>
+                        <button string="Confirmer" type="object" name="action_for_validation" states="brouillon" class="oe_highlight"/>
+                        <button string="Valider" type="object" name="action_valide" states="confirmer" class="oe_highlight"/>
+                        <button string="Remettre en brouillon" type="object" name="action_remettre_brouillon" states="confirmer" class="oe_highlight"/>
+
+                        <field name="state" widget="statusbar"/>
+                    </header>
+                    <sheet string="Formulaire LM">
+                        <div class="oe_title">
+                            <h1>
+                                <field name="reference" readonly="1"/>
+                            </h1>
+                        </div>
+                        <group string="Information de la mission">
+                            <group>
+                                <field name="date_doc" string="Date du document"/>
+                                <field name="type_mission" string="Type de la mission"/>
+                                <field name="titre_mission" string="Titre de la mission"/>
+                                <field name="prenom"/>
+                                <field name="nom"/>
+                                <field name="genre"/>
+                                <label for="date_debut" string="Dates" class="o_form_label"/>
+                                <div class="o_row o_row_readonly">
+                                    <span class="oe_inline">
+                                        Début
+                                    </span>
+                                    <field name="date_debut" class="oe_inline" nolabel="1"/>
+                                    <span class="oe_inline">
+                                        Fin
+                                    </span>
+                                    <field name="date_fin" class="oe_inline" nolabel="1"/>
+                                </div>
+                            </group>
+                            <group>
+                                <field name="objet_mission" string="Objet de la mission"/>
+                                <field name="partner_id" string="Client"/>
+                                <field name="code_mission"/>
+                                <field name="code_bu"/>
+                            </group>
+                        </group>
+                        <group string="Information du client">
+                            <group>
+                                <field name="titre_personne_contact" string="Titre de la personne contact"/>
+                                <field name="registre_de_commerce" string="Registre de commerce"/>
+                                <field name="capital_entreprise" string="Capital de l'entreprise"/>
+                            </group>
+                            <group>
+                                <field name="adresse_client" string="Adresse du client"/>
+                                <field name="description_activite" string="Description de l'activité du client"/>
+                            </group>
+                        </group>
+                        <group string="Champs modifiables">
+                            <group>
+                                <field name="obligation_prestataire" string="Obligation du prestataire"/>
+                                <field name="prix_prestation" string="Prix de la prestation"/>
+                                <field name="condition_paiement" string="Condition de paiement"/>
+                                <field name="etude_de_la_mission"/>
+                            </group>
+                            <group>
+                                <field name="date_renouvellement" attrs="{'invisible':[('type_mission', '!=', 'mission_odoo')]}" string="Date de renouvellement"/>
+                                <field name="prix_prestation_odoo" attrs="{'invisible':[('type_mission', '!=', 'mission_odoo')]}" string="Facture de Odooo"/>
+                                <field name="prix_maintenance" attrs="{'invisible':[('type_mission', '!=', 'mission_odoo')]}" string="Prix de la maintenance"/>
+                                <field name="paragraphe_sup1" string="Paragraphe supplémentaire 1" attrs="{'invisible':[('type_mission', '=', 'mission_odoo')]}"/>
+                                <field name="paragraphe_sup2" string="Paragraphe supplémentaire 2" attrs="{'invisible':[('type_mission', '=', 'mission_odoo')]}"/>
+                            </group>
+                        </group>
+
+
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <record id="lettre_mission_tree" model="ir.ui.view">
+            <field name="name">lettre.mission.tree</field>
+            <field name="model">lettre.mission</field>
+            <field name="arch" type="xml">
+                <tree>
+                    <field name="reference"/>
+                    <field name="type_mission"/>
+                    <field name="date_doc"/>
+                    <field name="state" widget="status"/>
+                </tree>
+            </field>
+        </record>
 
     </data>
 </odoo>

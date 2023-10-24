@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="lm_odoo_id">
+        <div>
+            <h1 style="margin-top:13pt; margin-bottom:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#ffd900">1</span><span style="width:19.31pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#59aba7">Etendue de la mission</span>
+			</h1>
+        </div>
+        <p>mettre ici les modifications de Odoo</p>
+    </template>
+
+</odoo>

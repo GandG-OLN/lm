@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <template id="lm_taxeandlegal_id"> 
+        <div style="clear:both;">
+            <h1 style="margin-top:13pt; margin-bottom:0pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt">
+				<span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#ffd900">1</span><span style="width:19.31pt; font:7pt 'Times New Roman'; display:inline-block">&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0;&#xa0; </span><span style="font-family:'Avenir Next LT Pro'; font-size:14pt; color:#59aba7">Etendue de la mission</span>
+			</h1>
+            <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;'>
+                <ol start="1" style="margin-bottom:0cm;list-style-type: lower-alpha;margin-left:43.4px;">
+                    <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;'><strong><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Conseil juridique et fiscal de la holding : </span></strong></li>
+                </ol>
+            </div>
+            <br></br>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:53.4pt;font-size:16px;font-family:"Times New Roman",serif;border:none;text-align:justify;line-height:13.0pt;'><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;border:none;'>Nos diligences seront effectuées sur la période nécessaire à la réalisation des travaux et comprendront les éléments suivants : </span></p><br></br>
+            <ul style="list-style-type: disc;margin-left:61.400000000000006px;">
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Le choix de la meilleure structure juridique pour la holding en fonction de ses objectifs, de ses besoins et des lois et réglementations applicables ;</span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La rédaction de l'Objet et des statuts de la holding ainsi que de toute documentation juridique liée et nécessaire à la création de celle-ci conformément aux exigences légales et réglementaires ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Le conseil dans les différentes étapes de la création du holding ;</span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Le conseil sur les aspects fiscaux, réglementaires et contractuels, et l'aide à la constitution de la holding ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Le conseil sur la gestion de la holding, y compris la gouvernance, la gestion des risques, les stratégies de croissance et la planification de la succession au besoin ;</span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Le suivi administratif jusqu'à l'obtention des documents juridiques.</span></li>
+            </ul>
+        </div>
+        <div style="clear:both;">
+            <div style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;'>
+                <ol start="2" style="margin-bottom:0cm;list-style-type: lower-alpha;margin-left:43.4px;">
+                    <li style='margin:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;'><strong><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>Assistance juridique : </span></strong></li>
+                </ol>
+            </div>
+            <br></br>
+            <p style='margin-top:0cm;margin-right:0cm;margin-bottom:0cm;margin-left:53.4pt;font-size:16px;font-family:"Times New Roman",serif;border:none;text-align:justify;line-height:13.0pt;'><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;border:none;'>Les prestations consisteront en : </span></p><br></br>
+            <ul style="list-style-type: disc;margin-left:61.400000000000006px;">
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La réponse à toute question en matière de droit des sociétés en vigueur au Sénégal ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La rédaction de la convocation et des pouvoirs des actionnaires pour le Conseil d’Administration (CA) et l’Assemblée Générale Ordinaire (AGO) ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La préparation de la liste des actionnaires et la signature de la feuille de présence ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La préparation et la rédaction du procès-verbal des réunions du CA et de l’AGO ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La tenue du registre des procès-verbaux, des membres, des administrateurs et du siège social ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La revue et la validation des contrats de travail du personnel et le suivi et l’enregistrement des contrats à l’Inspection du Travail après signature ; </span></li>
+                <li><span style='font-family:"Avenir Next LT Pro",sans-serif;font-size:11.0pt;'>La revue et la validation des contrats avec les tiers (clients-fournisseurs) puis le suivi de leur enregistrement aux impôts après signature. </span></li>
+            </ul>
+        </div>
+    </template>
+</odoo>
+<!-- 
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+
+    <data>
+    
+        <template id="lm_taxeandlegal_id">
+            <p>Ceci est un test pour vérifier</p> 
+        </template>
+    
+    </data>
+    
+
+</odoo>
+ -->
+
+
+

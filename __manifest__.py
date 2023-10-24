@@ -11,7 +11,13 @@
     'license': 'AGPL-3',
     'data': [
         'views/lettre_mission.xml',
- #       'security/ir.model.access.csv',
+        'security/ir.model.access.csv',
+        'report/report.xml',
+        'report/lm_taxeandlegal.xml',
+        'report/lm_odoo.xml',
+        'report/lm_expertise.xml',
+        'report/lm_details_template.xml',
+        'data/data.xml'
     ],
     'demo': [],
     'installable': True,

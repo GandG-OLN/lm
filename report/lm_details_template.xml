@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <template id="report_id_lm_detail">
+        <t t-call="web.html_container">
+            <t t-foreach="docs" t-as="o">
+               <!-- <t t-call="web.external_layout"> -->
+                    <div class="page">
+                        <div class="header">
+                            <div class="row">
+                                <img t-att-src="'/oln_report/static/src/img/gandg_header.png'" align="center" width="850" height="140"/>
+                            </div> 
+                        </div>
+                        <center>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <table style="border:3px solid black;width:80%;text-align:center;">
+                                <tr>
+                                    <td class="text-center">
+                                        <p style="margin-top:20px;font-size:18pt;"><strong><span t-field="o.partner_id"/></strong></p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">
+                                        <strong><span t-field="o.titre_mission"/></strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">
+                                        <strong>Exercice clos le <span t-field="o.date_fin"/></strong>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="text-center">
+                                        <p style="margin-bottom:20px;"><strong>Lettre de mission</strong></p>
+                                    </td>
+                                </tr>
+                            </table>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                            <br></br>
+                        </center> 
+                        <div style="page-break-after:always">
+                            <p style="text-align:center">
+                                <strong><span t-field="o.partner_id"/></strong>
+                                <br></br>
+                                Exercice clos le <span t-field="o.date_fin"/>
+                                <br></br>
+                                Ce document comprend <!--<span class="page" invisible="1"/><span class="topage"/>--> pages
+                            </p>
+                        </div>
+                        
+                        <div style="page-break-after:always;">
+                            <p style="text-align:right;font-size:12pt;">
+                                <strong>A l'attention de <span t-field="o.genre"/> <span t-field="o.prenom"/> <span t-field="o.nom"/></strong><br></br><strong><span t-field="o.titre_personne_contact"/></strong>
+                                <br></br>
+                                <strong><span t-field="o.adresse_client"/></strong>
+                            </p>
+                            <br></br>
+                            <p style="text-align:left;font-size:12pt;">
+                                <strong>N/REF : <span t-field="o.reference"/></strong>
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p style="text-align:right;font-size:12pt;">
+                                <strong>Dakar, le <span t-field="o.date_doc"/></strong>
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p style="text-align:left;font-size:12pt;">
+                                <strong>Objet : "<span t-field="o.partner_id"/>" - Lettre de Mission : <span t-field="o.titre_mission"/></strong>
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p style="text-align:left;font-size:12pt;">
+                                <strong><span t-field="o.genre"/> <span t-field="o.nom"/></strong>
+                            </p>
+                            <br></br>
+                            <br></br>
+                            <p style="text-align:left;font-size:12pt;">
+                                Nous avons le plaisir de vous proposer ci-dessous les termes et conditions relatifs à notre mission <span t-field="o.titre_mission"/> <t t-if="o.type_mission!='mission_odoo'">pour l'exercice clos le <span t-field="o.date_fin"/> </t>pour le compte de la société "<span t-field="o.partner_id"/>".
+                            </p>
+                        </div> 
+                        <div style="page-break-after:always;">
+                            <!-- <ol type="1" style="margin:0pt;padding-left:0pt;">
+                                <li style="margin-top:13pt; page-break-inside:avoid; page-break-after:avoid; line-height:14pt; font-family:'Avenir Next LT Pro'; font-size:14pt; font-weight:bold; color:#ffd900; list-style-position:inside;">
+                                    <span>        </span><span style="color:#59aba7;">Etendue de la mission</span>
+
+                                </li>
+                            </ol> -->
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:13pt;" id="test_inherit">
+                                <span style="font-family:'Avenir Next LT Pro'; font-size:11pt;">Notre proposition de services comprend les principales étapes suivantes : </span>
+                            </p>
+                            <t t-if="o.type_mission=='mission_taxeandlegal'">
+                                <t t-call="lm.lm_taxeandlegal_id"></t>
+                            </t>
+                            <t t-elif="o.type_mission=='mission_odoo'">
+                                <t t-call="lm.lm_odoo_id"></t>
+                            </t>
+                            <t t-elif="o.type_mission=='mission_expertise'">
+                                <t t-call="lm.lm_expertise_id"></t>
+                            </t>
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:115%; font-size:12pt;">
+                                Cette proposition repose sur des conditions de déroulement normal de nos travaux et sur l’assistance et la collaboration actives de vos services. Elle est également établie sur la base de la situation financière actuelle de la société. 
+                            </p>
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:115%; font-size:12pt;">
+                                Elle pourrait être révisée d’un commun accord au cas où nous rencontrerions des difficultés particulières ou aurions à réaliser des prestations se trouvant hors du périmètre de la mission. Nous vous proposons de vous envoyer des factures mensuelles le 1er du mois à partir de Juillet 2023 et vous rappelons que nos honoraires sont payables à réception.
+                            </p>
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:115%; font-size:12pt;">
+                                Nous pourrions être amenés à réaliser, à votre demande, des interventions complémentaires non couvertes par la présente lettre. Les termes et conditions de ces interventions feront l’objet d’une lettre séparée et donneront lieu à une facturation distincte complémentaire.
+                            </p>
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:115%; font-size:12pt;">
+                                La présente lettre de mission et les conditions générales d’intervention en annexe constitueront, dès leur signature, la totalité des engagements convenus entre les parties et annulera toutes correspondances et négociations précédentes écrites ou verbales. Les conditions générales d’intervention font partie intégrante des termes de la lettre de mission. En conséquence, l’acceptation d’une lettre de mission vaut adhésion entière et sans réserve aux présentes conditions générales d’intervention.
+                            </p>
+                            <p style="margin-top:6.5pt; margin-bottom:6.5pt; text-align:justify; line-height:115%; font-size:12pt;">
+                                Nous restons à votre disposition pour vous apporter tout complément d'information que vous pourriez souhaiter et vous prions de croire, Monsieur CAKPO, à l'assurance de nos salutations distinguées.
+                            </p>
+                        </div>
+                        <br></br><br></br><br></br>
+                        <tr>
+                            <td style="width: 223.65pt;padding: 0cm 5.4pt;height: 38.1pt;vertical-align: top;">
+                                <p style='margin-right:0cm;margin-left:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;margin:0cm;text-align:justify;line-height:13.0pt;'><strong><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;border:none;'>GandG Professional Services SAS</span></strong></p>
+                                <p style='margin-right:0cm;margin-left:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;margin:0cm;text-align:justify;line-height:13.0pt;'><strong><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;border:none;'>Ndèye Marième FALL</span></strong></p>
+                                <p style='margin-right:0cm;margin-left:0cm;font-size:16px;font-family:"Times New Roman",serif;border:none;margin:0cm;text-align:justify;line-height:13.0pt;'><strong><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;border:none;'>Associée - Directrice Générale </span></strong></p>
+                            </td>
+                        </tr>
+                        <br></br><br></br><br></br><br></br><br></br>
+                        <div>
+                            <p style='margin-right:0cm;margin-left:0cm;font-size:13px;font-family:"Times New Roman",serif;border:none;margin-top:0cm;margin-bottom:6.0pt;text-align:justify;'>
+                                <span style='font-size:15px;font-family:"Avenir Next LT Pro Light",sans-serif;color:black;'>Si les termes de cette lettre vous conviennent, veuillez-nous en retourner un exemplaire signé avec la mention "bon pour accord" sur les modalités de notre intervention.</span>
+                            </p>
+                            <p style='margin-right:0cm;margin-left:0cm;font-size:13px;font-family:"Times New Roman",serif;border:none;margin-top:13.0pt;margin-bottom:6.0pt;text-align:right;'><span style='font-size:15px;font-family:"Avenir Next LT Pro Light",sans-serif;color:black;'>Bon pour accord, pour le compte de </span><strong><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;color:black;background:yellow;' t-field="o.partner_id"/></strong></p>
+                            <p style='margin-right:0cm;margin-left:0cm;font-size:13px;font-family:"Times New Roman",serif;border:none;margin-top:0cm;margin-bottom:0cm;text-align:right;'><strong><span style='font-size:15px;font-family:"Avenir Next LT Pro",sans-serif;background:yellow;' t-field="o.titre_personne_contact"/></strong></p>
+                        </div>
+                        
+
+                    
+
+
+
+                        <div class="footer">
+                            <!-- <div style="position:absolute; margin:0px; padding:0px">
+                                <span class="page"/>/<span class="topage"/>
+                            </div>  -->
+                            <div class="row">
+                                <img t-att-src="'/lm/static/src/img/gandg_footer.png'" width="850" height="80"/>
+                            </div> 
+                        </div>
+
+                    </div>
+               <!-- </t> -->
+            </t>
+            
+        </t>
+    </template>
+    
+
+
+</odoo>
